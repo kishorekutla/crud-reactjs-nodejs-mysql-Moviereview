@@ -1,0 +1,94 @@
+
+.App {
+  text-align: center;
+}
+
+.enter-name{
+  font-size: 30px;
+  color:#313738;
+  font-family: "monoton";
+}
+
+.savebutton{
+  background-color: aquamarine;
+  color: black;
+  font-size: 18px;
+  border-radius: 7px;
+  padding: 6px;
+  
+  border: 1px solid black;
+}
+.input{
+  border-top: 1px solid brown;
+  height: 20px;
+}
+.name-con{
+  padding: 10px;
+     background-color: antiquewhite;
+     border: 1px solid black;
+     border-radius: 8px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     margin: 10px;
+}
+.Review{
+  font-size: 25px;
+  color:darkolivegreen;
+}
+.head{
+  color:red;
+  align-self: center;
+  font-weight: bold;
+  font-family: "monospace";
+  font-size:50px;
+}
+.update-but{
+  color:black;
+  font-size: 20px;
+  font-family: "bree-serif";
+   padding: 9px;
+   border: none;
+   border-radius: 3px;
+}
+.delete-but{
+  align-self: self-end;
+ color:white;
+ font-family: "Arial";
+  padding: 9px;
+  border: none;
+  border-radius: 3px;
+  background-image: linear-gradient(to left, red, blue);
+}
+.upper-con{
+  background-color: rgb(208, 247, 158);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
